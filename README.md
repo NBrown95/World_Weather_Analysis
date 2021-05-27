@@ -2,11 +2,11 @@
 
 ## Deliverable 1
 
-For this project, we generated 2,000 random latitudes and longitudes. Then, using citipy, we retrieved the nearest city to those coordinates. After this, we performed an API call with the OpenWeatherMap. With this, we retrieved the latitude, longitude, maximum temperature, percent humidity, percent cloudiness, wind speed, and the current weather description for each city. In total, we ended with 202 cities with all of this information. We exported this data to a new DataFrame and exported this as a CSV file.
+For this project, we generated 2,000 random latitudes and longitudes. Then, using citipy, we retrieved the nearest city to those coordinates. After this, we performed an API call with the OpenWeatherMap. With this, we retrieved the latitude, longitude, maximum temperature, percent humidity, percent cloudiness, wind speed, and the current weather description for each city. In total, we ended with 675 cities with all of this information. We exported this data to a new DataFrame and exported this as a CSV file.
 
 ## Deliverable 2
 
-Using this new CSV file, we added two input statements for users to enter their preferred maximum and minimum temperatures. This was to help identify potential travel destinations and nearby hotels. We performed an API call with Google Directions to search for hotels within 5,000 meters of each city. Once we found a hotel for each city, we exported this data to a CSV file. In addition, we used the gmaps function to create a map with Google Maps to show the location of each hotel as well as the hotel name, city, country, current weather description, and maximum temperature.
+Using this new CSV file, we added two input statements for users to enter their preferred maximum and minimum temperatures. This was to help identify potential travel destinations and nearby hotels. We performed an API call with Google Directions to search for hotels within 5,000 meters of each city. Once we found a hotel for each city, we exported this data to a CSV file. We successfully found hotel information for 202 of our cities. In addition, we used the gmaps function to create a map with Google Maps to show the location of each hotel as well as the hotel name, city, country, current weather description, and maximum temperature.
 
 ## Deliverable 3
 
